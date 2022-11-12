@@ -1,26 +1,41 @@
+@font-face {
+    font-family: 'graphik';
+    src: url("../public/GraphikRegular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    width: 100%;
+    overflow-x: clip;
+    background-color: #FAFAFA;
+    scroll-behavior: smooth;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.fotospeque {
+    margin-left: 1%;
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        font-family: 'Work Sans', sans-serif;
+        width: 100%;
+        overflow-x: auto;
+        background-color: #FAFAFA;
+        scroll-behavior: smooth;
+        background-image: url("/principalMOVIL.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
