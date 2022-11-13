@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Navbar from '../components/navbar'
 
 const Home: NextPage = () => {
   return (
@@ -12,15 +13,30 @@ const Home: NextPage = () => {
         <link rel="icon" href="/landing.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-        The best products start with Figma
-        </h1>
 
-        
 
-        
-      </main>
+      <article className={styles.fondoBlanco}>
+        <section className={styles.fondoImagen}>
+          <Navbar></Navbar>
+          <h1 className={styles.letrasIniciales}>
+            The best products start with Figma
+          </h1>
+          <h4 className={styles.letrasMedio}>Most calendars are designed for teams. Slate is designed 
+for freelancers</h4>
+          <button className={styles.botonFancy}>
+            Try For Free
+          </button>
+       <div className={styles.flex1}>
+       <div className={styles.trianguloIzq}></div>
+          <div className={styles.trianguloDer}></div>
+       </div>
+        </section>
+
+      </article>
+
+
+
+
 
       <footer className={styles.footer}>
         <a

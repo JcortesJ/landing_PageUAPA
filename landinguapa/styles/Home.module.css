@@ -1,11 +1,221 @@
-.main {
-    min-height: 100vh;
-    /*padding: 4rem 0; */
-    flex: 1;
+/*estilos primer tercio de la hoja*/
+
+.fondoBlanco {
+    /* Auto layout */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding: 0;
+    margin-top: -0.8%;
+    margin-left: -0.6%;
+    width: 100.5%;
+    height: 1042px;
+    background: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    border: 2px solid;
+}
+
+.letrasIniciales {
+    z-index: 4;
+    width: 672px;
+    height: 168px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 84px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.2px;
+}
+
+.letrasMedio {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: -2%;
+    letter-spacing: 0.2px;
+    /* Light text */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.fondoImagen {
+    position: absolute;
+    width: 100%;
+    height: 105%;
+    left: 0%;
+    right: 0%;
+    background: url('/foto_computador.jpg'), #080b0c;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.flex1 {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    margin-top: -2%;
+    /* border: 2px solid; */
+}
+
+.trianguloIzq {
+    z-index: 3;
+    position: relative;
+    background-color: transparent;
+    border-top: 150px solid transparent;
+    border-left: 700px solid white;
+    padding: 1%;
+    margin-left: -2%;
+    width: 50%;
+}
+
+.trianguloDer {
+    z-index: 3;
+    position: relative;
+    background-color: transparent;
+    border-top: 150px solid transparent;
+    border-right: 700px solid white;
+    padding: 1%;
+    margin-left: -4%;
+    width: 50%;
+}
+
+.navb {
+    font-family: 'Graphik', sans-serif;
+    position: sticky;
+    margin: auto;
+    margin-top: 2%;
+    z-index: 3;
+    background-color: transparent;
+    border-radius: 2%;
+    /* border: solid rgb(166, 166, 166); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.navButtons {
+    border: transparent solid;
+    margin-left: 4px;
+    font-family: 'Graphik', sans-serif;
+    background-color: transparent;
+    border-radius: 2%;
+    text-align: center;
+    width: fit-content;
+    padding: 1%;
+    font-weight: lighter;
+    color: white;
+    font-size: normal;
+}
+
+.navButtons:hover {
+    background-color: #e8b9ff;
+}
+
+.navb>img {
+    margin-left: 2%;
+    /*border: white solid 2px; */
+}
+
+.figma {
+    margin-right: 15%;
+}
+
+.navMobile {
+    /*border: 2px solid;*/
+    width: 40%;
+    top: 3%;
+    z-index: 3;
+    position: fixed;
+    height: fit-content;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.navMobile>ul {
+    margin-right: 10%;
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid;*/
+    position: relative;
+    list-style: none;
+    display: none;
+    /*Pendiente cambiar esto en responsive*/
+}
+
+.iconMenu {
+    width: 50px;
+    height: 50px;
+    margin-left: 70%;
+    background-image: url('/treslineas.png');
+    background-size: contain;
+    border: transparent;
+    background-color: transparent;
+}
+
+.iconMenu:hover {
+    background-color: #E7F1EB;
+}
+
+.botonFancy {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    width: 236px;
+    height: 52px;
+    margin: auto;
+    margin-top: 4%;
+    background: #2091F9;
+    border-radius: 35px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    border: transparent;
+}
+
+.botonFancy:hover {
+    background: #7ec1ff;
 }
 
 .footer {
@@ -15,7 +225,7 @@
     align-items: center;
     flex-direction: column;
     padding: 150px 0px;
-    width: 100%;
+    width: 102%;
     height: 567px;
     background: #252B42;
     margin-left: -1%;
