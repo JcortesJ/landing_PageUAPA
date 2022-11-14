@@ -71,14 +71,13 @@
 .fondoImagen {
     position: relative;
     width: 100%;
-    height: 120%;
-    padding-bottom: 15%;
+    height: 760px;
     left: 0%;
     right: 0%;
     background: url('/computador2.png'), #080b0c;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-y: top;
 }
 
 .flex1 {
@@ -217,7 +216,7 @@
     width: 236px;
     height: 52px;
     margin: auto;
-    margin-top: 3.5%;
+    margin-top: 5%;
     background: #2091F9;
     border-radius: 35px;
     flex: none;
