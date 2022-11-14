@@ -29,10 +29,11 @@ const Home: NextPage = () => {
           <button className={styles.botonFancy}>
             Try For Free
           </button>
+          { /*
           <div className={styles.flex1}>
             <div className={styles.trianguloIzq}></div>
             <div className={styles.trianguloDer}></div>
-          </div>
+          </div> */ }
         </section>
        
         <section className={styles.features}>
