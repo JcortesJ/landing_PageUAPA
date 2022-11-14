@@ -929,40 +929,50 @@
         align-items: center;
         height: fit-content;
         width: 60%;
+        text-align: center;
         margin: auto;
         margin-left: -20%;
     }
     .cajitaBonita3:nth-child(1) {
-        margin-right: 70%;
+        margin-right: 90%;
     }
     .cajitaBonita3:nth-child(2) {
-        margin-right: 65%;
+        margin-right: 85%;
     }
     .cajitaBonita3:nth-child(3) {
-        margin-right: 60%;
+        margin-right: 80%;
     }
     .cajitaBonita3:nth-child(4) {
-        margin-right: 45%;
+        margin-right: 57.8%;
     }
     .cajitaBonita3:nth-child(4) span {
         text-align: right;
         color: white;
         margin-right: 10%;
-        margin-left: auto;
+        /* background-color: red; */
+        margin-left: -63%;
+        text-align: right;
         margin-bottom: 2%;
-        width: 110%;
+        width: 150%;
     }
     .cajitaBonita3:nth-child(4) span:nth-child(3) {
         margin-left: -57%;
+        text-align: center;
+        /* background-color: gray; */
     }
     .cajitaBonita3:nth-child(4) img {
         margin-left: 20%;
+        margin-right: 2%;
+    }
+    .cajitaBonita3:nth-child(4) span {
+        text-align: right;
     }
     .cajitaBonita3 ul {
-        text-align: left;
-        /*border: 2px solid white; */
+        /* border: 2px solid white; */
+        padding-right: 10%;
         height: fit-content;
         width: 50%;
+        text-align: center;
         list-style-type: none;
         color: white;
         margin: auto;
@@ -971,8 +981,16 @@
     .cajitaBonita3 li {
         line-height: 28px;
         font-weight: lighter;
+        /* border: 2px white solid; */
+        width: 120%;
         font-size: 13px;
         margin-bottom: 12%;
-        text-align: left;
+        text-align: center;
+    }
+    .redes {
+        margin-right: 10%;
+    }
+    .cajitaBonita3 h3 {
+        margin-left: 15%;
     }
 }

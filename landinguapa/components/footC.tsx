@@ -42,7 +42,7 @@ const Footer = () => {
                                 <br></br>
                                 <span><img src={"/cel_blanco.jpg"} width={25} height={30}></img> 239 555-0108</span>
                                 <br></br>
-                            <img src={"/redes_soc.png"} width={170} height={55}></img> 
+                            <img src={"/redes_soc.png"} width={170} height={55} className={styles.redes}></img> 
                          
                     </div>
                 </div>
