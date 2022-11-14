@@ -4,6 +4,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar'
 import Infodiv from '../components/divFeat'
+import Form from '../components/formU'
+import InfoCon from '../components/divCont'
 
 const Home: NextPage = () => {
   return (
@@ -49,7 +51,29 @@ Slate is designed for freelancers</h4>
      
       </div>
       </section>
-     
+      <section className={styles.formulario}>
+      <h2 className={styles.tituloF} id="Contact">Contact</h2>
+      <h4 className={styles.subtituloF}>Most calendars are designed for teams. 
+      <br></br>
+Slate is designed for freelancers</h4>
+      <div className={styles.flex3}>
+        <Form></Form>
+        <div className={styles.flex4}>
+          <div className={styles.flex6}> 
+          <InfoCon {...["/ubicacion.png","6386 Spring St undefined Anchorage,Georgia 12473 United States"]}></InfoCon>
+          <InfoCon {...["/cel.png","(843) 555-0130"]}></InfoCon>
+          <InfoCon {...["/mens.png","willie.jennings@example.com"]}></InfoCon>
+          </div>
+         <img src={"/mapa.png"}  height={230} width={383} className={styles.mapa}></img>
+         <div className={styles.flex6}> 
+         <img src={"/tw_azul.png"} height={25} width={25}></img>
+         <img src={"/fb_azul.png"} height={25} width={25}></img>
+         <img src={"/in_azul.png"} height={25} width={25}></img>
+         </div>
+        
+        </div>
+      </div>
+      </section>
       </article>  
 
      
