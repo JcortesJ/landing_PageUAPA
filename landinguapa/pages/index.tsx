@@ -6,6 +6,7 @@ import Navbar from '../components/navbar'
 import Infodiv from '../components/divFeat'
 import Form from '../components/formU'
 import InfoCon from '../components/divCont'
+import Footer from '../components/footC'
 
 const Home: NextPage = () => {
   return (
@@ -84,18 +85,8 @@ Slate is designed for freelancers</h4>
 
 
     </main>
-    <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer></div>
+    <Footer></Footer>
+    </div>
   )
 }
 
