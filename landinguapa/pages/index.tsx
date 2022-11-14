@@ -24,8 +24,8 @@ const Home: NextPage = () => {
           <h1 className={styles.letrasIniciales} id="Home">
             The best products start with Figma
           </h1>
-          <h4 className={styles.letrasMedio}>Most calendars are designed for teams. Slate is designed
-            for freelancers</h4>
+          <h4 className={styles.letrasMedio}><p>Most calendars are designed for teams.</p><p> Slate is designed  for freelancers</p> 
+           </h4>
           <button className={styles.botonFancy}>
             Try For Free
           </button>
@@ -38,8 +38,10 @@ const Home: NextPage = () => {
        
         <section className={styles.features}>
       <h2 className={styles.tituloF} id="Product">Features</h2>
-      <h4 className={styles.subtituloF}>Most calendars are designed for teams. 
-Slate is designed for freelancers</h4>
+      <h4 className={styles.subtituloF}>
+        <p>Most calendars are designed for teams.  </p>
+        <p>Slate is designed for freelancers</p>
+</h4>
       <div className={styles.flex2}>
       <Infodiv {...["/circ_cuad.png", "OpenType features Variable fonts", "Slate helps you see how many more days you need to work to reach your financial goal."]} />
       <Infodiv {...["/lapiz_trazo.png", "Design with real data", "Slate helps you see how many more days you need to work to reach your financial goal."]} />
@@ -55,9 +57,10 @@ Slate is designed for freelancers</h4>
       </section>
       <section className={styles.formulario}>
       <h2 className={styles.tituloF} id="Contact">Contact</h2>
-      <h4 className={styles.subtituloF}>Most calendars are designed for teams. 
-      <br></br>
-Slate is designed for freelancers</h4>
+      <h4 className={styles.subtituloF}><p>Most calendars are designed for teams. </p>
+      
+          <p>Slate is designed for freelancers</p>
+</h4>
       <div className={styles.flex3}>
         <Form></Form>
         <div className={styles.flex4}>
