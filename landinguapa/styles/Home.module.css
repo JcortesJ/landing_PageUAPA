@@ -762,6 +762,19 @@
         margin-top: 5%;
         margin-bottom: 3%;
     }
+    .flex6:nth-child(3) {
+        background-color: transparent;
+        align-items: center;
+        flex-direction: row;
+        position: absolute;
+        margin-bottom: 70%;
+        margin-top: -5%;
+        margin-right: 10%;
+        padding-bottom: 40%;
+    }
+    .flex6:nth-child(3) img {
+        margin: auto;
+    }
     .mapa {
         display: none;
     }
@@ -781,6 +794,7 @@
         padding-right: 20%;
         padding-left: 8%;
         padding-bottom: 10%;
+        margin-top: 100%;
         width: fit-content;
     }
     .flex5 h3 {
@@ -858,6 +872,7 @@
         margin-bottom: 30%;
     }
     .cajitaBonita2 {
+        /**/
         /*border: 2px solid; */
         padding: 1%;
         border-radius: 2%;
@@ -992,5 +1007,10 @@
     }
     .cajitaBonita3 h3 {
         margin-left: 15%;
+    }
+    .flex4 {
+        margin-bottom: 60%;
+        position: absolute;
+        /* background-color: green; */
     }
 }
