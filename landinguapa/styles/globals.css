@@ -8,6 +8,7 @@
 html,
 body {
     font-family: 'graphik', sans-serif;
+    margin-left: auto;
     width: 100%;
     overflow-x: clip;
     background-color: #FAFAFA;

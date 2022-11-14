@@ -85,6 +85,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: top;
+    background-position-x: center;
 }
 
 .flex1 {
@@ -324,23 +325,23 @@
 }
 
 .imgGrande {
-    margin-left: 14%;
+    margin: auto;
 }
 
 .playB {
-    /* border: 2px solid; */
-    position: relative;
-    margin-left: 52%;
-    margin-top: -40%;
+    /*border: 2px solid;*/
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 20%;
     margin-bottom: 20%;
 }
 
 .playTB {
     /*border: 2px solid;*/
     z-index: 2;
-    position: relative;
-    margin-left: 57%;
-    margin-top: -40%;
+    position: absolute;
+    margin-left: 39.5%;
+    margin-top: 26%;
     margin-bottom: 26%;
 }
 
@@ -358,7 +359,8 @@
     height: fit-content;
     flex-direction: row;
     align-items: center;
-    /* border: solid 2px; */
+    justify-items: center;
+    /*border: solid 2px; */
     margin: auto;
     margin-top: 2%;
     padding: 1%;

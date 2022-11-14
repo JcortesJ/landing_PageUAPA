@@ -50,12 +50,13 @@ const Home: NextPage = () => {
               <Infodiv {...["/lapiz.png", "Fastest way to take action", "Slate helps you see how many more days you need to work to reach your financial goal."]} />
 
             </div>
-            <div>
-              <img src={"/screen.png"} width={1000} height={600} className={styles.imgGrande}></img>
-              <img src={"/play.png"} width={150} height={150} className={styles.playB} />
+           
+             <div className={styles.flex3}> <img src={"/screen.png"} width={1000} height={600} className={styles.imgGrande}></img>
+             <img src={"/play.png"} width={150} height={150} className={styles.playB} />
               <img src={"/trianguloP.png"} width={38} height={38} className={styles.playTB} />
+             </div> 
+              
 
-            </div>
           </section>
           <section className={styles.formulario}>
             <h2 className={styles.tituloF} id="Contact">Contact</h2>
