@@ -31,10 +31,13 @@ a {
     body {
         font-family: 'Graphik', sans-serif;
         width: 100%;
-        overflow-x: clip;
-        background-color: #e77676;
+        overflow-x: auto;
+        background-color: white;
         scroll-behavior: smooth;
         background-size: contain;
         background-repeat: no-repeat;
+    }
+    .container {
+        width: 100%;
     }
 }
