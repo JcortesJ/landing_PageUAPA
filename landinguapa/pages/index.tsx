@@ -7,6 +7,7 @@ import Infodiv from '../components/divFeat'
 import Form from '../components/formU'
 import InfoCon from '../components/divCont'
 import Footer from '../components/footC'
+import MobileNav from '../components/navmob'
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <article className={styles.fondoBlanco}>
           <section className={styles.fondoImagen}>
             <Navbar></Navbar>
+            <MobileNav></MobileNav>
             <h1 className={styles.letrasIniciales} id="Home">
               The best products start with Figma
             </h1>
@@ -41,6 +43,7 @@ const Home: NextPage = () => {
               <p>Most calendars are designed for teams.  </p>
               <p>Slate is designed for freelancers</p>
             </h4>
+            <img src={"pc_responsive.png"} width={300} height={200} className={styles.fotoResponsive}></img>
             <div className={styles.flex2}>
               <Infodiv {...["/circ_cuad.png", "OpenType features Variable fonts", "Slate helps you see how many more days you need to work to reach your financial goal."]} />
               <Infodiv {...["/lapiz_trazo.png", "Design with real data", "Slate helps you see how many more days you need to work to reach your financial goal."]} />
