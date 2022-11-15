@@ -43,7 +43,10 @@ const Home: NextPage = () => {
               <p>Most calendars are designed for teams.  </p>
               <p>Slate is designed for freelancers</p>
             </h4>
-            <img src={"pc_responsive.png"} width={300} height={200} className={styles.fotoResponsive}></img>
+            <div className={styles.fotoResponsive}>
+            <img src={"/play.png"} width={150} height={150} className={styles.playB2} />
+              <img src={"/trianguloP.png"} width={38} height={38} className={styles.playTB2} /> 
+            </div>
             <div className={styles.flex2}>
               <Infodiv {...["/circ_cuad.png", "OpenType features Variable fonts", "Slate helps you see how many more days you need to work to reach your financial goal."]} />
               <Infodiv {...["/lapiz_trazo.png", "Design with real data", "Slate helps you see how many more days you need to work to reach your financial goal."]} />

@@ -1071,31 +1071,35 @@
     }
     .fotoResponsive {
         display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
         margin: auto;
+        border: 2px solid;
         margin-top: 8%;
-        width: 385px;
+        background-image: url("/pc_responsive.png");
+        width: 360px;
         height: 225px;
     }
-    .playB {
-        border: 2px solid;
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        margin-left: auto;
-        margin-top: auto;
-        margin-bottom: 20%;
-    }
-    .playTB {
+    .playB2 {
         /*border: 2px solid;*/
         z-index: 2;
+        position: relative;
+        width: 60px;
+        height: 60px;
+        margin-left: 40%;
+        margin-top: 23%;
+        margin-bottom: auto;
+    }
+    .playTB2 {
+        /*border: 2px solid;*/
+        z-index: 3;
         width: 20px;
         height: 20px;
-        position: absolute;
-        margin-left: 47%;
-        margin-top: -232%;
-        margin-bottom: 26%;
+        position: relative;
+        margin-left: -10%;
+        margin-bottom: 5.5%;
     }
-    .playB:hover {
+    .playB2:hover {
         background-color: #e8b9ff;
         border-radius: 35%;
     }
