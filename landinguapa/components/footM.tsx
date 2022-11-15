@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css"
 
-const Footer = () => {
+const FooterM = () => {
     return (
         <>
             <footer className={styles.footerM}>
@@ -54,4 +54,4 @@ const Footer = () => {
     );
 }
 
-export default Footer;
+export default FooterM;

@@ -8,6 +8,7 @@ import Form from '../components/formU'
 import InfoCon from '../components/divCont'
 import Footer from '../components/footC'
 import MobileNav from '../components/navmob'
+import FooterM from '../components/footM'
 
 const Home: NextPage = () => {
   return (
@@ -94,6 +95,7 @@ const Home: NextPage = () => {
 
 
         <Footer></Footer>
+        <FooterM></FooterM>
 
 
       </main></>
