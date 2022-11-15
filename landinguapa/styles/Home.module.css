@@ -963,13 +963,14 @@
     .flex7 {
         display: flex;
         padding: 1%;
-        width: 70%;
-        /* border: 2px solid white; */
+        width: 80%;
+        /*border: 2px solid white; */
         justify-content: center;
         align-items: center;
         flex-direction: column;
         flex-grow: 1;
         position: relative;
+        margin-left: -8%;
         margin-right: auto;
     }
     /*responsive*/
@@ -980,7 +981,7 @@
         flex-direction: column;
         align-items: center;
         height: fit-content;
-        width: 60%;
+        width: 70%;
         text-align: center;
         margin: auto;
         margin-left: auto;
@@ -1008,7 +1009,8 @@
         width: 150%;
     }
     .cajitaBonita3:nth-child(4) span:nth-child(1) {
-        margin-left: 15%;
+        margin-left: 2%;
+        text-align: right;
     }
     .cajitaBonita3:nth-child(4) span:nth-child(3) {
         margin-left: 5%;
@@ -1017,7 +1019,7 @@
     }
     .cajitaBonita3:nth-child(4) img {
         margin-left: 22%;
-        margin-right: 2%;
+        margin-right: 4%;
     }
     .cajitaBonita3:nth-child(4) span {
         text-align: right;
@@ -1049,6 +1051,8 @@
     }
     .cajitaBonita3 h3 {
         margin-left: 15%;
+        width: 90%;
+        line-height: 25px;
     }
     .flex4 {
         margin-bottom: 60%;
