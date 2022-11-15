@@ -51,9 +51,11 @@ const Home: NextPage = () => {
 
             </div>
            
-             <div className={styles.flex3}> <img src={"/screen.png"} width={1000} height={600} className={styles.imgGrande}></img>
+             <div className={styles.imgGrande}>              
              <img src={"/play.png"} width={150} height={150} className={styles.playB} />
               <img src={"/trianguloP.png"} width={38} height={38} className={styles.playTB} />
+ 
+
              </div> 
               
 

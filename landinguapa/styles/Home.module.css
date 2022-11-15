@@ -325,24 +325,30 @@
 }
 
 .imgGrande {
+    width: 1000px;
+    height: 600px;
     margin: auto;
+    /*border: 2px solid; */
+    background-image: url("/screen.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .playB {
-    /*border: 2px solid;*/
-    position: absolute;
-    margin-left: 36%;
+    /*border: 2px solid; */
+    z-index: 3;
+    position: relative;
+    margin-left: 45%;
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom: auto;
 }
 
 .playTB {
     /*border: 2px solid;*/
-    z-index: 2;
-    position: absolute;
-    margin-left: 39.5%;
-    margin-top: 26%;
-    margin-bottom: 26%;
+    z-index: 3;
+    position: relative;
+    margin-left: -8.5%;
+    margin-bottom: 5.5%;
 }
 
 .playB:hover {
@@ -1071,12 +1077,12 @@
         height: 225px;
     }
     .playB {
-        /* border: 2px solid; */
+        border: 2px solid;
         position: absolute;
         width: 60px;
         height: 60px;
-        margin-left: 41%;
-        margin-top: -237%;
+        margin-left: auto;
+        margin-top: auto;
         margin-bottom: 20%;
     }
     .playTB {
