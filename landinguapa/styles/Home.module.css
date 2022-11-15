@@ -1074,7 +1074,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         margin: auto;
-        border: 2px solid;
+        /*border: 2px solid; */
         margin-top: 8%;
         background-image: url("/pc_responsive.png");
         width: 360px;
